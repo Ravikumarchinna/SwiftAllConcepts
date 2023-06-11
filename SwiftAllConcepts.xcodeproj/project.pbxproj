@@ -17,6 +17,7 @@
 		1889DCD12A35FFB000867CBB /* SwiftAllConceptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889DCD02A35FFB000867CBB /* SwiftAllConceptsTests.swift */; };
 		1889DCDB2A35FFB000867CBB /* SwiftAllConceptsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889DCDA2A35FFB000867CBB /* SwiftAllConceptsUITests.swift */; };
 		1889DCDD2A35FFB000867CBB /* SwiftAllConceptsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889DCDC2A35FFB000867CBB /* SwiftAllConceptsUITestsLaunchTests.swift */; };
+		1889DCEA2A3600D800867CBB /* SwiftBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889DCE92A3600D800867CBB /* SwiftBasics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1889DCD62A35FFB000867CBB /* SwiftAllConceptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAllConceptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1889DCDA2A35FFB000867CBB /* SwiftAllConceptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAllConceptsUITests.swift; sourceTree = "<group>"; };
 		1889DCDC2A35FFB000867CBB /* SwiftAllConceptsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAllConceptsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1889DCE92A3600D800867CBB /* SwiftBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				1889DCB62A35FFA700867CBB /* AppDelegate.swift */,
 				1889DCB82A35FFA700867CBB /* SceneDelegate.swift */,
 				1889DCBA2A35FFA700867CBB /* ViewController.swift */,
+				1889DCE92A3600D800867CBB /* SwiftBasics.swift */,
 				1889DCBC2A35FFA700867CBB /* Main.storyboard */,
 				1889DCC22A35FFAF00867CBB /* Assets.xcassets */,
 				1889DCC42A35FFAF00867CBB /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				1889DCBB2A35FFA700867CBB /* ViewController.swift in Sources */,
 				1889DCB72A35FFA700867CBB /* AppDelegate.swift in Sources */,
+				1889DCEA2A3600D800867CBB /* SwiftBasics.swift in Sources */,
 				1889DCC12A35FFA700867CBB /* SwiftAllConcepts.xcdatamodeld in Sources */,
 				1889DCB92A35FFA700867CBB /* SceneDelegate.swift in Sources */,
 			);
