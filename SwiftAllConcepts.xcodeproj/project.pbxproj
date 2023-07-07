@@ -107,13 +107,11 @@
 		1889DCB52A35FFA700867CBB /* SwiftAllConcepts */ = {
 			isa = PBXGroup;
 			children = (
+				8802456A2A5871AC00048F7A /* View */,
+				880245692A58719B00048F7A /* ViewModel */,
+				880245682A58718E00048F7A /* Model */,
 				1889DCB62A35FFA700867CBB /* AppDelegate.swift */,
 				1889DCB82A35FFA700867CBB /* SceneDelegate.swift */,
-				1889DCBA2A35FFA700867CBB /* ViewController.swift */,
-				1889DCE92A3600D800867CBB /* SwiftBasics.swift */,
-				880245642A58664F00048F7A /* ViewModel.swift */,
-				880245662A58665400048F7A /* DataModel.swift */,
-				1889DCBC2A35FFA700867CBB /* Main.storyboard */,
 				1889DCC22A35FFAF00867CBB /* Assets.xcassets */,
 				1889DCC42A35FFAF00867CBB /* LaunchScreen.storyboard */,
 				1889DCC72A35FFAF00867CBB /* Info.plist */,
@@ -137,6 +135,32 @@
 				1889DCDC2A35FFB000867CBB /* SwiftAllConceptsUITestsLaunchTests.swift */,
 			);
 			path = SwiftAllConceptsUITests;
+			sourceTree = "<group>";
+		};
+		880245682A58718E00048F7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				880245662A58665400048F7A /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		880245692A58719B00048F7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				880245642A58664F00048F7A /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8802456A2A5871AC00048F7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1889DCBC2A35FFA700867CBB /* Main.storyboard */,
+				1889DCE92A3600D800867CBB /* SwiftBasics.swift */,
+				1889DCBA2A35FFA700867CBB /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

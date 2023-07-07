@@ -62,6 +62,7 @@ class ViewModel: NSObject {
         // Call third API
         getData(EndPoints.jsonPlaceHolderED3.url, [JsonPlaceHolder].self) { data in
             self.jsonPlaceHolder3 = data
+            //insert to local data base
             
             // Once we get data of second then call Leave
             dispatchGroup.leave()
@@ -72,6 +73,10 @@ class ViewModel: NSObject {
         dispatchGroup.notify(queue: .main) {
             completion(self.jsonPlaceHolder1)
         }
+    }
+    
+    func localDataCall() {
+        //getData from Local
     }
     
     private func getData<DataKind:Codable>(_ url: String,_ dataKind: DataKind.Type, _ completion: @escaping (_ data:DataKind)->Void) {

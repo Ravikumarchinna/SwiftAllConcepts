@@ -11,8 +11,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     var viewModel = ViewModel()
     @IBOutlet var tableView: UITableView!
-    
-    
+    var array = [JsonPlaceHolder]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func getData() {
         viewModel.getHomeDataWithDispatchGroup{[weak self] jsonData in
             guard let self = self else {return}
+            array = jsonData
             self.tableView.reloadData()
         }
     }
@@ -37,12 +37,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView.dequeueReusableCell(withIdentifier: "cell",
                                            for: indexPath)
         // Sets the text of the Label in the Table View Cell
-        aCell.textLabel?.text = viewModel.jsonPlaceHolder3[indexPath.row].email
+        aCell.textLabel?.text = array[indexPath.row].email
         return aCell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.jsonPlaceHolder3.count
+        return array.count
     }
 
 }
